@@ -1,0 +1,13 @@
+server:
+    port: 9002
+
+spring:
+  activemq:
+    broker-url: tcp://localhost:61616
+    user:
+    password:
+
+calling:
+  base-url: http://localhost:9003
+  execute-path: /execute
+  repeats-max: 5
